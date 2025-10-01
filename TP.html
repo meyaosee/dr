@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>eShop - Accueil</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+  <style>
+  .stats-section {
+  background: #e6f9f9;
+  padding: 60px 20px;
+  font-family: Arial, sans-serif;
+}
+
+.stats-content {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  justify-content: space-between;
+}
+
+.left {
+  flex: 1 1 350px;}
+
+.left h1 {
+  color: #00b39b;
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.left p {
+  font-size: 16px;
+  color: #333;
+}
+
+.right {
+  flex: 1 1 550px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+  text-align: center;
+}
+
+.card h2 {
+  color: #00b39b;
+  font-size: 20px;
+}
+
+.card p {
+  color: #555;
+  font-size: 14px;
+}
+h2{
+  color: aquamarine;
+}
+
+.card img{
+transform: scale(1);
+transition: transform 0.3s ease;
+}
+.card img:hover {
+transform: scale(1.05);
+}
+   body{
+        background-color: azure;
+      }
+      #logo{
+    width: 50px;
+    height: 50px;
+}
+.nav-item{
+    margin: 0 15px;
+}
+</style>
+</head>
+<body>
+
+  <header class="bg-light sticky-top py-3 ">
+    <div class="container ">
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="#">
+          <img src="https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582747_960_720.png" alt="logo" id="logo"    <h1>Docplanner Group</h1>>
+         
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav ms-auto">
+                      <li class="nav-item"><a class="nav-link text-dark" href="#">Home</a></li>
+                      <li class="nav-item"><a class="nav-link text-dark" href="#">About</a></li>
+                      <li class="nav-item"><a class="nav-link text-dark" href="#">Projects</a></li>
+                      <li class="nav-item"><a class="nav-link text-dark" href="#"> Contact</a></li>
+                </ul>
+
+            </div>
+        </nav>
+    </div>
+  </header> 
+<section class="py-5 text-center">
+  <div class="container">
+    <!-- Titre -->
+    <h2 class="text-success mb-5">Helping people live longer, healthier lives</h2>
+
+    <!-- Deux colonnes -->
+    <div class="row text-start">
+      <div class="col-md-6 mb-4">
+        <p>
+          Docplanner is creating a healthcare ecosystem that seamlessly connects patients with doctors 
+          while integrating smart tools to provide quicker, more precise diagnoses and treatments, 
+          with the goal of supporting 1 billion patient visits annually within the next decade.
+        </p>
+      </div>
+      <div class="col-md-6">
+        <p>
+          We also help doctors to better manage their practice and build their online reputation. 
+          With our integrated end-to-end solution, doctors are able not only to improve their online presence, 
+          but also to devote their time to what really matters: their patients. <br>
+          Please check the 
+          <a href="#" class="text-primary">2025 Docplanner Trust and Transparency Report</a>
+              </p>
+      </div>
+    </div>
+  </div>
+</section>
+<div class="container my-5">
+  <div class="row g-4 text-white">
+    
+    <!-- Patients -->
+    <div class="col-md-4">
+      <div class="p-4 rounded-3 bg-info h-100">
+        <div class="fs-4 mb-2">👥</div>
+        <h5 class="fw-bold">For patients</h5>
+        <p class="mb-4">Find a doctor, book a visit and solve any health-related doubt</p>
+        <div class="fw-semibold">Choose country </div>
+      </div>
+    </div>
+
+    <!-- Doctors -->
+    <div class="col-md-4">
+      <div class="p-4 rounded-3 bg-primary h-100">
+        <div class="fs-4 mb-2">👤</div>
+        <h5 class="fw-bold">For doctors</h5>
+        <p class="mb-4">Save time managing visits and cut no-shows by half</p>
+        <div class="fw-semibold">Choose country </div>
+      </div>
+    </div>
+        <!-- Clinics -->
+    <div class="col-md-4">
+      <div class="p-4 rounded-3 bg-dark h-100">
+        <div class="fs-4 mb-2">🏢</div>
+        <h5 class="fw-bold">For clinics</h5>
+        <p class="mb-4">Deliver an exceptional patient experience in your clinic</p>
+        <div class="fw-semibold">Choose your option</div>
+      </div>
+    </div>
+
+  </div>
+</div>
+<section class="py-5 bg-white">
+<div class="container">
+    <div class="row align-items-center">
+      <!-- Texte à gauche -->
+      <div class="col-md-4 mb-4 mb-md-0">
+        <h3 class="text-success">We are a global<br>company<br>with local culture</h3>
+      </div>
+
+      <!-- Logos ou noms à droite -->
+      <div class="col-md-8">
+        <div class="row text-muted text-center">
+          <div class="col-6 col-md-4 mb-3">
+            <img src="1" class="img-fluid mb-2">
+            <p>ZnanyLekarz</p>
+          </div>
+          <div class="col-6 col-md-4 mb-3">
+            <img src="" alt="Doctoralia" class="img-fluid mb-2">
+            <p>Doctoralia</p>
+          </div>
+          <div class="col-6 col-md-4 mb-3">
+            <img src="logo3.png" alt="MioDottore" class="img-fluid mb-2">
+            <p>MioDottore</p>
+          </div>
+          <div class="col-6 col-md-4 mb-3">
+            <img src="logo4.png" alt="DoktorTakvimi" class="img-fluid mb-2">
+            <p>DoktorTakvimi</p>
+          </div>
+                 <!-- Ajoute plus de logos ici -->
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="stats-section">
+  <div class="stats-content">
+    <div class="left">
+      <h1>The world's biggest<br>healthcare platform</h1>
+      <p>We work from 11 offices all over the world, bringing Docplanner Group to life in 13 countries.</p>
+    </div>
+    <div class="right">
+      <div class="card"> 
+        <h2>Leader in 13 countries</h2>
+        <p>Poland, Brazil, Mexico, Spain, Italy, Germany, Turkey, Colombia, Czech Republic, Portugal, Argentina, Peru and Chile</p>
+      </div>
+      <div class="card">
+        <h2>22,000,000 appointments</h2>
+        <p>booked last month</p>
+      </div>
+      <div class="card">
+        <h2>80,000,000 patients</h2>
+      </div>
+      <div class="card">
+        <h2>260,000 active doctors</h2>
+        <p>trust our solutions</p>
+      </div>
+    </div>
+  </div>
+  </section>
+<section class="text-center py-5 bg-white">
+  <div class="container">
+    <h2 class="mb-4">Improve the lives of millions <br> Change yours forever</h2>
+    <p>More than 2800 team mates share our same vision, goals and passion.  <br>With offices in Amsterdam (HQ), Warsaw, Barcelona, Munich, Istanbul, <br> Rome, Rio, Bologna, Mexico City and Curitiba, our search for great talent never stops.</p>
+  </div>
+</section>
+<section class="container my-5">
+  <div class="row">
+    <div class="col-md-4 product-card" data-aos="zoom-in">
+      <div class="card">
+        <img src="om.jpg" class="card-img-top" alt="om">
+        <div class="card-body">
+          <h5 class="card-text"> <strong>instanbul</strong> <a href="#" class="btn btn-outline-primary">SEE OPENINGS</a></p>
+         
+        </div>
+      </div>
+    </div>
+     <div class="col-md-4 product-card" data-aos="zoom-in">
+      <div class="card">
+        <img src="1.png" class="card-img-top" alt="barcelone">
+        <div class="card-body">
+         <h5 class="card-text"> <strong>Barcelone</strong> <a href="#" class="btn btn-outline-primary">SEE OPENINGS</a></p>
+        </div>
+      </div>
+    </div> <div class="col-md-4 product-card" data-aos="zoom-in">
+      <div class="card">
+        <img src="2.png" class="card-img-top" alt="rome">
+        <div class="card-body">
+         <h5 class="card-text"> <strong>Rome</strong> <a href="#" class="btn btn-outline-primary">SEE OPENINGS</a></p>
+        </div>
+      </div>
+    </div> <div class="col-md-4 product-card" data-aos="zoom-in">
+      <div class="card">
+        <img src="3.png" class="card-img-top" alt="Munich">
+        <div class="card-body">
+          <h5 class="card-text"> <strong>Munich</strong> <a href="#" class="btn btn-outline-primary">SEE OPENINGS</a></p>
+        </div>
+      </div>
+    </div> <div class="col-md-4 product-card" data-aos="zoom-in">
+      <div class="card">
+        <img src="4.png" class="card-img-top" alt="bologa">
+        <div class="card-body">
+          <h5 class="card-text"> <strong>Bologna</strong> <a href="#" class="btn btn-outline-primary">SEE OPENINGS</a></p>
+        </div>
+      </div>
+    </div> <div class="col-md-4 product-card" data-aos="zoom-in">
+      <div class="card">
+        <img src="5.png" class="card-img-top" alt="cur">
+        <div class="card-body">
+          <h5 class="card-text"> <strong>Curitiba</strong> <a href="#" class="btn btn-outline-primary">SEE OPENINGS</a></p>
+        </div>
+      </div>
+    </div> <div class="col-md-4 product-card" data-aos="zoom-in">
+      <div class="card">
+        <img src="6.png" class="card-img-top" alt="roi">
+        <div class="card-body">
+         <h5 class="card-text"> <strong>Roi Janeiro</strong> <a href="#" class="btn btn-outline-primary">SEE OPENINGS</a></p>
+        </div>
+      </div>
+    </div> <div class="col-md-4 product-card" data-aos="zoom-in">
+      <div class="card">
+        <img src="7.png" class="card-img-top" alt="mexico">
+        <div class="card-body">
+          <h5 class="card-text"> <strong>Mexico</strong> <a href="#" class="btn btn-outline-primary">SEE OPENINGS</a></p>
+        </div>
+      </div>
+    </div> <div class="col-md-4 product-card" data-aos="zoom-in">
+      <div class="card">
+        <img src="8.png" class="card-img-top" alt="ams">
+        <div class="card-body">
+         <h5 class="card-text"> <strong>Amsterdam</strong> <a href="#" class="btn btn-outline-primary">SEE OPENINGS</a></p>
+        </div>
+      </div>
+    </div> <div class="col-md-4 product-card" data-aos="zoom-in">
+      <div class="card">
+        <img src="9.png" class="card-img-top" alt="kin">
+        <div class="card-body">
+          <h5 class="card-text"> <strong>Kinshasa</strong> <a href="#" class="btn btn-outline-primary">SEE OPENINGS</a></p>
+        </div>
+      </div>
+    </div> <div class="col-md-4 product-card" data-aos="zoom-in">
+      <div class="card">
+        <img src="10.png" class="card-img-top" alt="braza">
+        <div class="card-body">
+          <h5 class="card-text"> <strong>Brazaville</strong> <a href="#" class="btn btn-outline-primary">SEE OPENINGS</a></p>
+        </div>
+      </div>
+    </div> <div class="col-md-4 product-card" data-aos="zoom-in">
+      <div class="card">
+        <img src="11.png" class="card-img-top" alt="Tunis">
+        <div class="card-body">
+         <h5 class="card-text"> <strong>Tunis</strong> <a href="#" class="btn btn-outline-primary">SEE OPENINGS</a></p>
+        </div>
+      </div>
+    </div>
+    <!-- Répéter pour plus de produits -->
+  </div>
+</section>
+</div>
+<section class="text-center py-5 bg-white">
+  <div class="container">
+    <h2 class="mb-4">Sounds interesting? Join us now!</h2>
+    <a href="#jobs" class="btn btn-primary btn-lg fw-bold">
+      SEE ALL CURRENT OPENINGS
+    </a>
+  </div>
+</section>
+
+<footer class="bg-dark text-light py-3">
+  <div class="container">
+    <div class="row">
+    <hr class="text-light">
+    <div class="text-center">
+      <p class="mb-0">&copy; 2025 Votre Entreprise. Tous droits réservés.</p>
+    </div>
+  </div>
+</div>
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Inclure la bibliothèque AOS et initialiser les animations -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+<script>AOS.init();</script>
+
+</body>
+</html>
